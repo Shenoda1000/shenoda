@@ -1,0 +1,135 @@
+/* تحسين المظهر العام */
+body {
+    font-family: 'Roboto Mono', monospace; /* استخدام خط monospace */
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق الرأس */
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+ /* Custom colors */
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --success-color: #28a745;
+            --dark-color: #343a40;
+            --light-color: #f8f9fa;
+        }
+
+        /* Section styling */
+        section {
+            margin-bottom: 2rem;
+        }
+
+        /* Button styling */
+        .btn-custom {
+            background-color: var(--primary-color);
+            color: var(--light-color);
+        }
+
+        /* Text styling */
+        h1, h2, h3 {
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Aligning elements to the center */
+        section, footer {
+            text-align: center;
+        }
+
+
+/* تنسيق العناوين */
+h2, h3 {
+    margin: 20px 0 10px 0;
+    color: #007bff;
+}
+h1 {
+    color: white;
+}
+/* تنسيق الأقسام */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الأزرار */
+button, .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #0056b3;
+}
+
+/* تنسيق الصور */
+img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+/* تنسيق قسم التواصل */
+#contact {
+    padding: 20px; /* إضافة بعض المساحة حول القسم */
+    background-color: white; /* تغيير لون الخلفية */
+    border-radius: 8px; /* جعل الزوايا مستديرة */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* إضافة تأثير الظل */
+}
+
+/* تنسيق حقول الإدخال */
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+    width: 80%; /* جعل العرض بالكامل */
+    padding: 10px; /* إضافة مساحة داخلية */
+    margin-bottom: 10px; /* إضافة مسافة بين الحقول */
+    border: 1px solid #ccc; /* تغيير لون الحدود */
+    border-radius: 4px; /* جعل الزوايا مستديرة */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* تأثير الظل الداخلي */
+}
+
+/* تنسيق زر الإرسال */
+#contact button {
+    background-color: var(--primary-color); /* استخدام لون أساسي */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer; /* إضافة مؤشر اليد عند التحويم */
+}
+
+/* تغيير لون الزر عند التحويم */
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+/* تنسيق الرسالة التأكيدية */
+#confirmation {
+    color: #28a745; /* تغيير لون النص إلى لون النجاح */
+    margin-top: 10px; /* إضافة مسافة بين الرسالة والعناصر الأخرى */
+}
+
+#projects img {
+  high: 300px;
+  width: 300px;
+  border-radius: 8px;
+  }
